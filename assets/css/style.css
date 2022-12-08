@@ -1077,6 +1077,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 24rem;
 }
 
+.h-18 {
+  height: 18rem;
+}
+
 .h-1 {
   height: 0.25rem;
 }
@@ -2205,6 +2209,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 /*  offcanvas menu style */
+#offcanvas-cart .p-8 ul img {
+	max-width: 70px;
+	
+}
 .offcanvas.offcanvas-open {
   --tw-translate-x: 0px;
   transform: var(--tw-transform);
