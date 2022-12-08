@@ -2343,11 +2343,17 @@ Ensure the default browser behavior of the `hidden` attribute.
     transform: none;
   }
 }
-.hero-slider .swiper-slide-active img {
+.hero-slider .swiper-slide-active img, .hero-slider .swiper-slide img, .fadeInLeft {
   -webkit-animation: fadeInLeft 1.3s ease-in-out;
   animation: fadeInLeft 1.3s ease-in-out;
   transition-delay: 100ms;
 }
+.fadeInRight {
+  -webkit-animation: fadeInRight 1.3s ease-in-out;
+  animation: fadeInRight 1.3s ease-in-out;
+  transition-delay: 100ms;
+}
+
 
 /* hero slider style end  */
 .swiper-button-next::after, .swiper-button-prev::after {
