@@ -2927,7 +2927,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 600px;
   }
   .xs\:h-590px {
-    height: 590px;
+    height: 565px;
   }
   .xs\:h-200px {
     height: 200px;
@@ -2938,7 +2938,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: absolute;
   }
   .sm\:h-715px {
-    height: 715px;
+    height: 710px;
   }
   .sm\:top-0 {
     top: 0px;
