@@ -3655,6 +3655,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1;
   }
 }
+
+/* More */
+.btn-close {
+  font-size: 22px;
+}
+
+/* Animations */
 .vibrate {
   -webkit-animation: shockwaveJump 1s ease-out infinite;
            animation: shockwaveJump 1s ease-out infinite;
