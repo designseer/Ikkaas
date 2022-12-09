@@ -673,7 +673,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 @media (max-width: 575px) {
   .top-4 {
-    top: 0;
+    top: -0.5rem;
   }
 }
 .top-auto {
@@ -2923,7 +2923,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 600px;
   }
   .xs\:h-650px {
-    height: 650px;
+    height: 615px;
   }
   .xs\:h-200px {
     height: 200px;
@@ -3044,6 +3044,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:-left-2 {
     left: -0.5rem;
   }
+
 
   .md\:-right-2 {
     right: -0.5rem;
@@ -3358,7 +3359,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .lg\:h-700px {
-    height: 700px;
+    height: 750px;
   }
 
   .lg\:w-1\/4 {
