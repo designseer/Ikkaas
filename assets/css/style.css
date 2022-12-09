@@ -3901,7 +3901,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 5px;
 }
 .margin-content h1, .margin-content p{
-  margin-top: -14px;
+  margin-top: -12px;
 }
 .color-cover:before {
   content: "";
