@@ -2937,7 +2937,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:absolute {
     position: absolute;
   }
-
+  .sm\:h-715px {
+    height: 715px;
+  }
   .sm\:top-0 {
     top: 0px;
   }
