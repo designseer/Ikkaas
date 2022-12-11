@@ -2925,8 +2925,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .after\:empty::after {
   content: "";
 }
-
 @media (min-width: 320px) {
+  .xs\:h-590px {
+    height: 500px;
+  }
+}
+@media (min-width: 400px) {
   .xs\:h-600px {
     height: 600px;
   }
@@ -2937,6 +2941,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 200px;
   }
 }
+
 @media (min-width: 576px) {
   .sm\:absolute {
     position: absolute;
