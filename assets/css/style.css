@@ -2929,16 +2929,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xs\:h-590px {
     height: 500px;
   }
-}
-@media (min-width: 400px) {
   .xs\:h-600px {
     height: 600px;
   }
-  .xs\:h-590px {
-    height: 530px;
-  }
   .xs\:h-200px {
     height: 200px;
+  }
+}
+@media (min-width: 400px) {
+
+  .xs\:h-590px {
+    height: 530px;
   }
 }
 
