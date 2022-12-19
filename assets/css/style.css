@@ -649,8 +649,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .top-5 {
   top: 2rem;
 }
-
-
+.top-price{
+  top: 5rem;
+}
+.right-price {
+  right: 6rem;
+}
+@media (max-width: 575px) {
+  .top-price{
+    top: 3rem;
+  }
+  .right-price {
+    right: 3.5rem;
+  }
+}
 .right-3 {
   right: 0.75rem;
 }
@@ -776,6 +788,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-start: 1;
 }
 
+.shadow {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
 .-m-1 {
   margin: -0.25rem;
 }
@@ -787,6 +802,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-m-4 {
   margin: -1rem;
 }
+
+
+.-m-50 {
+  margin: -50px;
+}
+.m-60 {
+  margin-top: 60px;
+}
+
 
 .mx-auto {
   margin-left: auto;
@@ -1107,6 +1131,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-96 {
   height: 24rem;
+}
+
+.h-500 {
+  height: 500px;
 }
 
 .h-18 {
@@ -3964,4 +3992,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
   background: black;
   opacity: 0.1;
+}
+li.price-design {
+  width: 95px;
+  height: 95px;
+  justify-content: center;
+  font-size: 22px;
+  color: #fff;
+  top:5px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
