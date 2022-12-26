@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>About Company - Ikkaas</title>
+    <title>Contact us - Ikkaas</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Favicon -->
@@ -207,6 +207,11 @@
                         <input class="border border-solid border-gray-300 w-full py-1 px-5 mb-5 placeholder-current text-dark h-12 focus:outline-none text-base" type="email" placeholder="Email" name="email">
                         <input class="border border-solid border-gray-300 w-full py-1 px-5 mb-5 placeholder-current text-dark h-12 focus:outline-none text-base" type="text" placeholder="subject" name="subject">
                         <textarea class="border border-solid border-gray-300 w-full py-1 px-5 mb-5 text-dark h-32 focus:outline-none text-base resize-none" name="massage"></textarea>
+						<div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6Les_LUUAAAAAOwAecAV2bvGOrePoZVQPLDOJcs_" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                    <input class="form-control hidden " data-recaptcha="true" required data-error="Please complete the Captcha">
+                                    <div class="help-block with-errors"></div>
+                        </div>
                         <button class="w-full leading-none uppercase text-white text-sm bg-dark px-5 py-5 transition-all hover:bg-orange" type="submit" aria-label="button">Send Message</button>
                     </form>
                     <p class="form-messege"></p>
@@ -291,7 +296,7 @@
     <script src="./assets/js/plugins/jquery.ajaxchimp.min.js"></script>
     <!-- Activation JS -->
     <script src="./assets/js/main.js"></script>    
- 
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 
 </html>
